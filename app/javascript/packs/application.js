@@ -14,3 +14,13 @@ ActiveStorage.start()
 
 import "controllers"
 import "bootstrap"
+
+import {tabs} from '../components/tabs'
+import {test} from '../components/test'
+
+document.addEventListener('turbolinks:load', () => {
+  tabs();
+});
+document.addEventListener('turbolinks:load', () => {
+  test();
+});
