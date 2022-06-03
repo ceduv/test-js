@@ -1,0 +1,22 @@
+$menu-color: rgb(58, 58, 58);
+
+.topbar{
+  margin-top: 35px;
+  padding: 15px;
+  font-weight: bolder;
+  font-size: large;
+  background-color: white;
+}
+
+.menu{
+  display: flex;
+  border: 1px solid $menu-color;
+  background-color: white;
+}
+
+.menu a{
+  text-decoration: none;
+  border-right: 1px solid $menu-color;
+  padding: 8px;
+  color: $menu-color;
+}

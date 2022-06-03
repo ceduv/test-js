@@ -16,11 +16,17 @@ import "controllers"
 import "bootstrap"
 
 import {tabs} from '../components/tabs'
-import {test} from '../components/test'
+import {page2} from '../components/page2'
+import {page3} from '../components/page3'
 
 document.addEventListener('turbolinks:load', () => {
   tabs();
 });
+
 document.addEventListener('turbolinks:load', () => {
-  test();
+  page2();
+});
+
+document.addEventListener('turbolinks:load', () => {
+  page3();
 });

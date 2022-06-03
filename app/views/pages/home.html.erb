@@ -1,32 +1,38 @@
-<h1>Title</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nemo porro nihil ex autem expedita, praesentium voluptates corporis omnis modi, nostrum quam quibusdam ullam at error a officiis? Distinctio, dolores?</p>
 
-<%= link_to 'posts', posts_path, class: "btn btn-dark"%>
-<%= link_to 'page2', pages_page2_path %>
+<div class="container">
+<%= render 'shared/navbar' %>
+<%= render 'shared/flashes' %>
+  <h1>Title</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nemo porro nihil ex autem expedita, praesentium voluptates corporis omnis modi, nostrum quam quibusdam ullam at error a officiis? Distinctio, dolores?</p>
+
+  <%= link_to 'posts', posts_path, class: "btn btn-dark"%>
+  <%= link_to 'page2', pages_page2_path, class: "btn btn-dark"%>
+  <%= link_to 'page3', pages_page3_path, class: "btn btn-dark"%>
 
 
-<div class="">
-  <ul class="tabs">
-    <li class="active"><a href="#home">Acceuil</a></li>
-    <li><a href="#mentions">Mentions</a></li>
-    <li><a href="#about">A propos</a></li>
-  </ul>
-  <div class="tabs-content">
-    <div class="tab-content active" id="home">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum voluptas sed ducimus voluptatum laudantium numquam repellat inventore repellendus! Error enim fuga numquam esse eos iusto nihil nobis eaque autem ipsa.</div>
-    <div class="tab-content" id="mentions"> Delectus facere tempora nemo, odio unde odit labore. Ex sequi harum vero dolores et, eaque assumenda quibusdam saepe alias aliquid impedit delectus!</div>
-    <div class="tab-content" id="about">Obcaecati expedita debitis, quisquam sed temporibus consequatur maxime quia, animi minus explicabo, beatae labore inventore delectus doloribus? Quis quod magnam fugiat soluta!</div>
+  <div class="">
+    <ul class="tabs">
+      <li class="active"><a href="#home">Acceuil</a></li>
+      <li><a href="#mentions">Mentions</a></li>
+      <li><a href="#about">A propos</a></li>
+    </ul>
+    <div class="tabs-content">
+      <div class="tab-content active" id="home">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum voluptas sed ducimus voluptatum laudantium numquam repellat inventore repellendus! Error enim fuga numquam esse eos iusto nihil nobis eaque autem ipsa.</div>
+      <div class="tab-content" id="mentions"> Delectus facere tempora nemo, odio unde odit labore. Ex sequi harum vero dolores et, eaque assumenda quibusdam saepe alias aliquid impedit delectus!</div>
+      <div class="tab-content" id="about">Obcaecati expedita debitis, quisquam sed temporibus consequatur maxime quia, animi minus explicabo, beatae labore inventore delectus doloribus? Quis quod magnam fugiat soluta!</div>
+    </div>
   </div>
-</div>
 
-<div class="">
-  <ul class="tabs">
-    <li class="active"><a href="#home2">Acceuil</a></li>
-    <li><a href="#mentions2">Mentions</a></li>
-    <li><a href="#about2">A propos</a></li>
-  </ul>
-  <div class="tabs-content">
-    <div class="tab-content active" id="home2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum voluptas sed ducimus voluptatum laudantium numquam repellat inventore repellendus! Error enim fuga numquam esse eos iusto nihil nobis eaque autem ipsa.</div>
-    <div class="tab-content" id="mentions2"> Delectus facere tempora nemo, odio unde odit labore. Ex sequi harum vero dolores et, eaque assumenda quibusdam saepe alias aliquid impedit delectus!</div>
-    <div class="tab-content" id="about2">Obcaecati expedita debitis, quisquam sed temporibus consequatur maxime quia, animi minus explicabo, beatae labore inventore delectus doloribus? Quis quod magnam fugiat soluta!</div>
+  <div class="">
+    <ul class="tabs">
+      <li class="active"><a href="#home2">Acceuil</a></li>
+      <li><a href="#mentions2">Mentions</a></li>
+      <li><a href="#about2">A propos</a></li>
+    </ul>
+    <div class="tabs-content">
+      <div class="tab-content active" id="home2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum voluptas sed ducimus voluptatum laudantium numquam repellat inventore repellendus! Error enim fuga numquam esse eos iusto nihil nobis eaque autem ipsa.</div>
+      <div class="tab-content" id="mentions2"> Delectus facere tempora nemo, odio unde odit labore. Ex sequi harum vero dolores et, eaque assumenda quibusdam saepe alias aliquid impedit delectus!</div>
+      <div class="tab-content" id="about2">Obcaecati expedita debitis, quisquam sed temporibus consequatur maxime quia, animi minus explicabo, beatae labore inventore delectus doloribus? Quis quod magnam fugiat soluta!</div>
+    </div>
   </div>
 </div>

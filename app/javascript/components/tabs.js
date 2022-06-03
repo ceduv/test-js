@@ -1,5 +1,5 @@
 
-const tabs = () => {
+let tabs = () => {
 
   let tabs = document.querySelectorAll('.tabs a')
   // nodelist
